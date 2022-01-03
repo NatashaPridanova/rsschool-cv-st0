@@ -43,3 +43,9 @@
     letter-spacing: 5px;
     color: #829985;
   }
+  .logo {
+    min-width: 100px;
+  }
+  .photo {
+    max-width: 160px;
+  }
