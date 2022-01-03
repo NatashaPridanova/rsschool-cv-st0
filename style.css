@@ -9,9 +9,18 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.header {
+    background-color: #91b6b1;
+}
+.footer {
+    flex-direction: row;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   .nav-list {
     display: flex;
@@ -44,8 +53,11 @@
     color: #829985;
   }
   .logo {
-    min-width: 100px;
+    max-width: 20px;
   }
   .photo {
     max-width: 160px;
+  }
+  * {
+    box-sizing: border-box;
   }
