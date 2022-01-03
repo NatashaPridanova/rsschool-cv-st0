@@ -3,8 +3,6 @@
     color: #1d1f1e;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    margin: 10px;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,15 +10,14 @@
 .header {
     background-color: #91b6b1;
 }
-.footer {
-    flex-direction: row;
-}
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
   }
   .nav-list {
     display: flex;
@@ -52,11 +49,8 @@
     letter-spacing: 5px;
     color: #829985;
   }
-  .logo {
-    max-width: 20px;
-  }
   .photo {
-    max-width: 160px;
+    padding:20px;
   }
   * {
     box-sizing: border-box;
